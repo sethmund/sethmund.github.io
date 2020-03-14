@@ -33,7 +33,7 @@ var color = d3.scaleThreshold()
 
 var promises = [
   d3.json("https://d3js.org/us-10m.v2.json"),
-  d3.csv("state_cases.csv", function(d) { state_cases.set(d.id, +d.rate); })
+  d3.csv("https://raw.githubusercontent.com/sethmund/D3_choro/master/state_cases.csv", function(d) { state_cases.set(d.id, +d.rate); })
 ]
 
 Promise.all(promises).then(ready)
