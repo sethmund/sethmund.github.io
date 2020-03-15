@@ -49,7 +49,7 @@ function initialize(error, results) {
     var max = d3.max(data, function(d) { return +d.cases; } );
     var color = d3.scaleThreshold()
         .domain(d3.ticks(1, max, 10))
-        .range(d3.schemeReds[9]);
+        .range(d3.schemeOranges[9]);
 
     states.forEach(function (f) {
         f.properties = data.find(function (d) { return d.id === f.id })
@@ -100,9 +100,9 @@ function initialize(error, results) {
             .style('opacity', 0)
             .remove()
 
-        // legend.scale(color);
-        // svg.select(".legend")
-        //     .call(legend);
+         legend.scale(color);
+         svg.select(".legend")
+             .call(legend);
     }
 
     function stateZoom(id) {
@@ -111,10 +111,12 @@ function initialize(error, results) {
             return d.id > id && d.id < id + 1000
         })
 
-        // var max_state = d3.max(stateCounties, function(d) { return +d.properties.cases; } );
-        // var color_state = d3.scaleThreshold()
-        //     .domain(d3.ticks(1, max_state, 5))
-        //     .range(d3.schemeReds[9]);
+         var max_state = d3.max(stateCounties, function(d) { return +d.properties.cases; } );
+         var min_state = d3.min(stateCounties, function(d) { return +d.properties.cases; } );
+
+         var color_state = d3.scaleQuantile()
+             .domain([min_state,max_state])
+             .range(d3.schemeOranges[3]);
 
         var t = d3.transition().duration(800)
 
@@ -131,9 +133,9 @@ function initialize(error, results) {
         enterCountyPaths.append('svg:title')
             .text(function (d) { return d.properties.name + ": " + d.properties.cases });
 
-        // legend.scale(color_state);
-        // svg.select(".legend")
-        //     .call(legend);
+         legend.scale(color_state);
+         svg.select(".legend")
+             .call(legend);
 
         projection.fitExtent(
             [[padding, padding], [width - padding, height - padding]],
