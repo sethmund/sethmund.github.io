@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <style>
-body { background: #333; }
-path { stroke: #333; stroke-width: 1; }
-path:hover { stroke-width: 3; }
+body { background: white; }
+path { stroke: gray; stroke-width: .5; }
+path:hover { stroke-width: 1; }
 </style>
+<head><p>COVID-19 Case Count by State and County</p></head>
+
 <body>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
@@ -46,11 +48,6 @@ function initialize(error, results) {
     var states = topojson.feature(results[1], results[1].objects.states).features
     var counties = topojson.feature(results[2], results[2].objects.counties).features
 
-    var max = d3.max(data, function(d) { return +d.cases; } );
-    var color = d3.scaleThreshold()
-        .domain(d3.ticks(1, max, 10))
-        .range(d3.schemeOranges[9]);
-
     states.forEach(function (f) {
         f.properties = data.find(function (d) { return d.id === f.id })
     })
@@ -58,6 +55,11 @@ function initialize(error, results) {
     counties.forEach(function (f) {
         f.properties = data.find(function (d) { return d.id === f.id }) || {}
     })
+
+    var max = d3.max(states, function(d) { return +d.properties.cases; } );
+    var color = d3.scaleQuantize()
+        .domain([0, max])
+        .range(d3.schemeOranges[9])
 
     var statePaths = svg.selectAll('.state')
         .data(states)
@@ -100,9 +102,9 @@ function initialize(error, results) {
             .style('opacity', 0)
             .remove()
 
-         legend.scale(color);
-         svg.select(".legend")
-             .call(legend);
+        legend.scale(color);
+        svg.select(".legend")
+            .call(legend);
     }
 
     function stateZoom(id) {
@@ -111,18 +113,10 @@ function initialize(error, results) {
             return d.id > id && d.id < id + 1000
         })
 
-        var A = d3.quantile(stateCounties, function(d) { return +d.properties.cases; } , 0);  
-        var B = d3.quantile(stateCounties, function(d) { return +d.properties.cases; } , 0.25);  
-        var C = d3.quantile(stateCounties, function(d) { return +d.properties.cases; } , 0.5); 
-        var D = d3.quantile(stateCounties, function(d) { return +d.properties.cases; } , 0.75);  
-        var E = d3.quantile(stateCounties, function(d) { return +d.properties.cases; } , 1); 
-
-         //var max_state = d3.max(stateCounties, function(d) { return +d.properties.cases; } );
-         //var min_state = d3.min(stateCounties, function(d) { return +d.properties.cases; } );
-
-         var color_state = d3.scaleQuantile()
-             .domain([A,B,C,D,E])
-             .range(d3.schemeOranges[5]);
+        var max_state = d3.max(stateCounties, function(d) { return +d.properties.cases; } );
+        var color_state = d3.scaleQuantize()
+            .domain([0, max_state]).nice()
+            .range(d3.schemeOranges[5]);
 
         var t = d3.transition().duration(800)
 
@@ -132,19 +126,19 @@ function initialize(error, results) {
         var enterCountyPaths = countyPaths.enter().append('path')
             .attr('class', 'county')
             .attr('d', path)
-            .style('fill', function (d) { return color(d.properties.cases) })
+            .style('fill', function (d) { return color_state(d.properties.cases) })
             .style('opacity', 0)
             .on('click', function () { usZoom() })
 
         enterCountyPaths.append('svg:title')
             .text(function (d) { return d.properties.name + ": " + d.properties.cases });
 
-         legend.scale(color_state);
-         svg.select(".legend")
-             .call(legend);
+        legend.scale(color_state);
+        svg.select(".legend")
+            .call(legend);
 
         projection.fitExtent(
-            [[padding, padding], [width - padding, height - padding]],
+            [[padding*3, padding], [width - padding*6, height - padding]],
             state
         )
 
