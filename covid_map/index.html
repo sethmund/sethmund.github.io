@@ -111,12 +111,18 @@ function initialize(error, results) {
             return d.id > id && d.id < id + 1000
         })
 
-         var max_state = d3.max(stateCounties, function(d) { return +d.properties.cases; } );
-         var min_state = d3.min(stateCounties, function(d) { return +d.properties.cases; } );
+        var A = d3.quantile(stateCounties, function(d) { return +d.properties.cases; } , 0);  
+        var B = d3.quantile(stateCounties, function(d) { return +d.properties.cases; } , 0.25);  
+        var C = d3.quantile(stateCounties, function(d) { return +d.properties.cases; } , 0.5); 
+        var D = d3.quantile(stateCounties, function(d) { return +d.properties.cases; } , 0.75);  
+        var E = d3.quantile(stateCounties, function(d) { return +d.properties.cases; } , 1); 
+
+         //var max_state = d3.max(stateCounties, function(d) { return +d.properties.cases; } );
+         //var min_state = d3.min(stateCounties, function(d) { return +d.properties.cases; } );
 
          var color_state = d3.scaleQuantile()
-             .domain([min_state,max_state])
-             .range(d3.schemeOranges[3]);
+             .domain([A,B,C,D,E])
+             .range(d3.schemeOranges[6]);
 
         var t = d3.transition().duration(800)
 
