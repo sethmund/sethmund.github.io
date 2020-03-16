@@ -3190,54 +3190,54 @@
 "56041","Uinta, WY",0
 "56043","Washakie, WY",0
 "56045","Weston, WY",0
-"01","Alabama",22
-"02","Alaska",1
-"04","Arizona",20
-"05","Arkansas",8
-"06","California",474
-"08","Colorado",131
-"09","Connecticut",26
-"10","Delaware",7
-"11",NA,17
-"12","Florida",136
-"13","Georgia",98
-"15","Hawaii",7
-"16","Idaho",5
-"17","Illinois",93
-"18","Indiana",19
-"19","Iowa",18
-"20","Kansas",8
-"21","Kentucky",21
-"22","Louisiana",103
-"23","Maine",3
-"24","Maryland",31
-"25","Massachusetts",163
-"26","Michigan",55
-"27","Minnesota",35
-"28","Mississippi",14
-"29","Missouri",6
-"30","Montana",6
-"31","Nebraska",18
-"32","Nevada",26
-"33","New Hampshire",13
-"34","New Jersey",98
-"35","New Mexico",13
-"36","New York",729
-"37","North Carolina",33
-"38","North Dakota",1
-"39","Ohio",37
-"40","Oklahoma",8
-"41","Oregon",39
-"42","Pennsylvania",63
-"44","Rhode Island",20
-"45","South Carolina",29
-"46","South Dakota",9
-"47","Tennessee",39
-"48","Texas",56
-"49","Utah",21
-"50","Vermont",4
-"51","Virginia",45
-"53","Washington",769
-"54","West Virginia",0
-"55","Wisconsin",33
-"56","Wyoming",3
+"01000","Alabama",22
+"02000","Alaska",1
+"04000","Arizona",20
+"05000","Arkansas",8
+"06000","California",474
+"08000","Colorado",131
+"09000","Connecticut",26
+"10000","Delaware",7
+"11000",NA,17
+"12000","Florida",136
+"13000","Georgia",98
+"15000","Hawaii",7
+"16000","Idaho",5
+"17000","Illinois",93
+"18000","Indiana",19
+"19000","Iowa",18
+"20000","Kansas",8
+"21000","Kentucky",21
+"22000","Louisiana",103
+"23000","Maine",3
+"24000","Maryland",31
+"25000","Massachusetts",163
+"26000","Michigan",55
+"27000","Minnesota",35
+"28000","Mississippi",14
+"29000","Missouri",6
+"30000","Montana",6
+"31000","Nebraska",18
+"32000","Nevada",26
+"33000","New Hampshire",13
+"34000","New Jersey",98
+"35000","New Mexico",13
+"36000","New York",729
+"37000","North Carolina",33
+"38000","North Dakota",1
+"39000","Ohio",37
+"40000","Oklahoma",8
+"41000","Oregon",39
+"42000","Pennsylvania",63
+"44000","Rhode Island",20
+"45000","South Carolina",29
+"46000","South Dakota",9
+"47000","Tennessee",39
+"48000","Texas",56
+"49000","Utah",21
+"50000","Vermont",4
+"51000","Virginia",45
+"53000","Washington",769
+"54000","West Virginia",0
+"55000","Wisconsin",33
+"56000","Wyoming",3
