@@ -23,7 +23,7 @@
 "01043","Cullman, AL",0
 "01045","Dale, AL",0
 "01047","Dallas, AL",0
-"01049","DeKalb, AL",0
+"01049","Dekalb, AL",0
 "01051","Elmore, AL",12
 "01053","Escambia, AL",0
 "01055","Etowah, AL",0
@@ -56,8 +56,8 @@
 "01109","Pike, AL",0
 "01111","Randolph, AL",0
 "01113","Russell, AL",0
-"01117","Shelby, AL",3
 "01115","St. Clair, AL",0
+"01117","Shelby, AL",3
 "01119","Sumter, AL",0
 "01121","Talladega, AL",0
 "01123","Tallapoosa, AL",0
@@ -66,18 +66,35 @@
 "01129","Washington, AL",0
 "01131","Wilcox, AL",0
 "01133","Winston, AL",0
-"02013","Aleutians East, AK",0
-"02060","Bristol Bay, AK",0
-"02068","Denali, AK",0
-"02090","Fairbanks North Star, AK",0
-"02100","Haines, AK",0
-"02122","Kenai Peninsula, AK",0
-"02130","Ketchikan Gateway, AK",0
-"02150","Kodiak Island, AK",0
-"02164","Lake and Peninsula, AK",0
-"02170","Matanuska-Susitna, AK",0
-"02185","North Slope, AK",0
-"02188","Northwest Arctic, AK",0
+"02013","Aleutians East Borough, AK",0
+"02016","Aleutians West Census Area, AK",0
+"02020","Anchorage Municipality, AK",0
+"02050","Bethel Census Area, AK",0
+"02060","Bristol Bay Borough, AK",0
+"02068","Denali Borough, AK",0
+"02070","Dillingham Census Area, AK",0
+"02090","Fairbanks North Star Borough, AK",0
+"02100","Haines Borough, AK",0
+"02105","Hoonah-Angoon Census Area, AK",0
+"02110","Juneau City And Borough, AK",0
+"02122","Kenai Peninsula Borough, AK",0
+"02130","Ketchikan Gateway Borough, AK",0
+"02150","Kodiak Island Borough, AK",0
+"02164","Lake And Peninsula Borough, AK",0
+"02170","Matanuska-Susitna Borough, AK",0
+"02180","Nome Census Area, AK",0
+"02185","North Slope Borough, AK",0
+"02188","Northwest Arctic Borough, AK",0
+"02195","Petersburg Borough, AK",0
+"02198","Prince Of Wales-Hyder Census Area, AK",0
+"02220","Sitka City And Borough, AK",0
+"02230","Skagway Municipality, AK",0
+"02240","Southeast Fairbanks Census Area, AK",0
+"02261","Valdez-Cordova Census Area, AK",0
+"02270","Wade Hampton Census Area, AK",0
+"02275","Wrangell City And Borough, AK",0
+"02282","Yakutat City And Borough, AK",0
+"02290","Yukon-Koyukuk Census Area, AK",0
 "04001","Apache, AZ",0
 "04003","Cochise, AZ",0
 "04005","Coconino, AZ",0
@@ -154,13 +171,13 @@
 "05117","Prairie, AR",0
 "05119","Pulaski, AR",0
 "05121","Randolph, AR",0
+"05123","St. Francis, AR",0
 "05125","Saline, AR",1
 "05127","Scott, AR",0
 "05129","Searcy, AR",0
 "05131","Sebastian, AR",0
 "05133","Sevier, AR",0
 "05135","Sharp, AR",0
-"05123","St. Francis, AR",0
 "05137","Stone, AR",0
 "05139","Union, AR",0
 "05141","Van Buren, AR",0
@@ -205,6 +222,7 @@
 "06069","San Benito, CA",3
 "06071","San Bernardino, CA",1
 "06073","San Diego, CA",39
+"06075","San Francisco, CA",37
 "06077","San Joaquin, CA",8
 "06079","San Luis Obispo, CA",0
 "06081","San Mateo, CA",32
@@ -225,8 +243,6 @@
 "06111","Ventura, CA",4
 "06113","Yolo, CA",2
 "06115","Yuba, CA",0
-"06005","Ione Band of Miwok, CA",0
-"06007","Mechoopda, CA",0
 "08001","Adams, CO",6
 "08003","Alamosa, CO",0
 "08005","Arapahoe, CO",15
@@ -234,6 +250,7 @@
 "08009","Baca, CO",0
 "08011","Bent, CO",0
 "08013","Boulder, CO",3
+"08014","Broomfield, CO",0
 "08015","Chaffee, CO",0
 "08017","Cheyenne, CO",0
 "08019","Clear Creek, CO",1
@@ -242,11 +259,12 @@
 "08025","Crowley, CO",0
 "08027","Custer, CO",0
 "08029","Delta, CO",0
+"08031","Denver, CO",25
 "08033","Dolores, CO",0
 "08035","Douglas, CO",8
 "08037","Eagle, CO",24
-"08041","El Paso, CO",4
 "08039","Elbert, CO",0
+"08041","El Paso, CO",4
 "08043","Fremont, CO",0
 "08045","Garfield, CO",1
 "08047","Gilpin, CO",0
@@ -258,8 +276,8 @@
 "08059","Jefferson, CO",12
 "08061","Kiowa, CO",0
 "08063","Kit Carson, CO",0
-"08067","La Plata, CO",0
 "08065","Lake, CO",0
+"08067","La Plata, CO",0
 "08069","Larimer, CO",1
 "08071","Las Animas, CO",0
 "08073","Lincoln, CO",0
@@ -289,9 +307,18 @@
 "08121","Washington, CO",0
 "08123","Weld, CO",5
 "08125","Yuma, CO",0
+"09001","Fairfield, CT",16
+"09003","Hartford, CT",3
+"09005","Litchfield, CT",4
+"09007","Middlesex, CT",0
+"09009","New Haven, CT",3
+"09011","New London, CT",0
+"09013","Tolland, CT",0
+"09015","Windham, CT",0
 "10001","Kent, DE",0
 "10003","New Castle, DE",7
 "10005","Sussex, DE",0
+"11001","District Of Columbia, DC",17
 "12001","Alachua, FL",1
 "12003","Baker, FL",0
 "12005","Bay, FL",0
@@ -304,8 +331,9 @@
 "12019","Clay, FL",3
 "12021","Collier, FL",5
 "12023","Columbia, FL",0
-"12027","DeSoto, FL",0
+"12027","Desoto, FL",0
 "12029","Dixie, FL",0
+"12031","Duval, FL",4
 "12033","Escambia, FL",0
 "12035","Flagler, FL",0
 "12037","Franklin, FL",0
@@ -345,11 +373,11 @@
 "12103","Pinellas, FL",2
 "12105","Polk, FL",0
 "12107","Putnam, FL",0
+"12109","St. Johns, FL",1
+"12111","St. Lucie, FL",0
 "12113","Santa Rosa, FL",1
 "12115","Sarasota, FL",1
 "12117","Seminole, FL",1
-"12109","St. Johns, FL",1
-"12111","St. Lucie, FL",0
 "12119","Sumter, FL",0
 "12121","Suwannee, FL",0
 "12123","Taylor, FL",0
@@ -383,8 +411,10 @@
 "13047","Catoosa, GA",0
 "13049","Charlton, GA",1
 "13051","Chatham, GA",0
+"13053","Chattahoochee, GA",0
 "13055","Chattooga, GA",0
 "13057","Cherokee, GA",5
+"13059","Clarke, GA",0
 "13061","Clay, GA",4
 "13063","Clayton, GA",4
 "13065","Clinch, GA",0
@@ -399,7 +429,7 @@
 "13083","Dade, GA",0
 "13085","Dawson, GA",0
 "13087","Decatur, GA",0
-"13089","DeKalb, GA",10
+"13089","Dekalb, GA",10
 "13091","Dodge, GA",0
 "13093","Dooly, GA",0
 "13095","Dougherty, GA",6
@@ -449,11 +479,11 @@
 "13183","Long, GA",0
 "13185","Lowndes, GA",2
 "13187","Lumpkin, GA",0
+"13189","Mcduffie, GA",0
+"13191","Mcintosh, GA",0
 "13193","Macon, GA",0
 "13195","Madison, GA",0
 "13197","Marion, GA",0
-"13189","McDuffie, GA",0
-"13191","McIntosh, GA",0
 "13199","Meriwether, GA",0
 "13201","Miller, GA",0
 "13205","Mitchell, GA",0
@@ -461,6 +491,7 @@
 "13209","Montgomery, GA",0
 "13211","Morgan, GA",0
 "13213","Murray, GA",0
+"13215","Muscogee, GA",0
 "13217","Newton, GA",4
 "13219","Oconee, GA",0
 "13221","Oglethorpe, GA",0
@@ -472,8 +503,10 @@
 "13233","Polk, GA",2
 "13235","Pulaski, GA",0
 "13237","Putnam, GA",0
+"13239","Quitman, GA",0
 "13241","Rabun, GA",0
 "13243","Randolph, GA",0
+"13245","Richmond, GA",0
 "13247","Rockdale, GA",0
 "13249","Schley, GA",0
 "13251","Screven, GA",0
@@ -504,6 +537,7 @@
 "13301","Warren, GA",0
 "13303","Washington, GA",0
 "13305","Wayne, GA",0
+"13307","Webster, GA",0
 "13309","Wheeler, GA",0
 "13311","White, GA",0
 "13313","Whitfield, GA",0
@@ -511,159 +545,9 @@
 "13317","Wilkes, GA",0
 "13319","Wilkinson, GA",0
 "13321","Worth, GA",0
-"15003","Ahuimanu, HI",4
-"15003","Aiea, HI",4
-"15001","Ainaloa, HI",0
-"15007","Anahola, HI",2
-"15001","Captain Cook, HI",0
-"15001","Discovery Harbour, HI",0
-"15003","East Honolulu, HI",4
-"15001","Eden Roc, HI",0
-"15007","Eleele, HI",2
-"15003","Ewa Beach, HI",4
-"15003","Ewa Gentry, HI",4
-"15003","Ewa Villages, HI",4
-"15001","Fern Acres, HI",0
-"15001","Fern Forest, HI",0
-"15007","Haena, HI",2
-"15009","Haiku-Pauwela, HI",1
-"15001","Halaula, HI",0
-"15003","Halawa, HI",4
-"15003","Haleiwa, HI",4
-"15009","Haliimaile, HI",1
-"15009","Hana, HI",1
-"15007","Hanalei, HI",2
-"15007","Hanamaulu, HI",2
-"15007","Hanapepe, HI",2
-"15003","Hauula, HI",4
-"15001","Hawaiian Acres, HI",0
-"15001","Hawaiian Beaches, HI",0
-"15001","Hawaiian Ocean View, HI",0
-"15001","Hawaiian Paradise Park, HI",0
-"15001","Hawi, HI",0
-"15003","Heeia, HI",4
-"15003","Hickam Housing, HI",4
-"15001","Hilo, HI",0
-"15001","Holualoa, HI",0
-"15001","Honalo, HI",0
-"15001","Honaunau-Napoopoo, HI",0
-"15001","Honokaa, HI",0
-"15001","Honomu, HI",0
-"15003","Iroquois Point, HI",4
-"15003","Kaaawa, HI",4
-"15009","Kaanapali, HI",1
-"15003","Kahaluu, HI",4
-"15001","Kahaluu-Keauhou, HI",0
-"15003","Kahuku, HI",4
-"15009","Kahului, HI",1
-"15001","Kailua, HI",0
-"15003","Kailua, HI",4
-"15003","Kalaeloa, HI",4
-"15007","Kalaheo, HI",2
-"15001","Kalaoa, HI",0
-"15007","Kalihiwai, HI",2
-"15003","Kaneohe, HI",4
-"15003","Kaneohe Station, HI",4
-"15007","Kapaa, HI",2
-"15001","Kapaau, HI",0
-"15009","Kapalua, HI",1
-"15003","Kapolei, HI",4
-"15007","Kaumakani, HI",2
-"15009","Kaunakakai, HI",1
-"15003","Kawela Bay, HI",4
-"15001","Keaau, HI",0
-"15001","Kealakekua, HI",0
-"15007","Kekaha, HI",2
-"15009","Keokea, HI",1
-"15009","Kihei, HI",1
-"15007","Kilauea, HI",2
-"15003","Ko Olina, HI",4
-"15007","Koloa, HI",2
-"15009","Kualapuu, HI",1
-"15001","Kukuihaele, HI",0
-"15009","Kula, HI",1
-"15001","Kurtistown, HI",0
-"15009","Lahaina, HI",1
-"15003","Laie, HI",4
-"15009","Lanai City, HI",1
-"15009","Launiupoko, HI",1
-"15001","Laupahoehoe, HI",0
-"15007","Lawai, HI",2
-"15001","Leilani Estates, HI",0
-"15007","Lihue, HI",2
-"15009","Maalaea, HI",1
-"15009","Mahinahina, HI",1
-"15003","Maili, HI",4
-"15003","Makaha, HI",4
-"15003","Makaha Valley, HI",4
-"15003","Makakilo, HI",4
-"15009","Makawao, HI",1
-"15009","Makena, HI",1
-"15009","Manele, HI",1
-"15009","Maunaloa, HI",1
-"15003","Maunawili, HI",4
-"15003","Mililani Mauka, HI",4
-"15003","Mililani Town, HI",4
-"15003","Mokuleia, HI",4
-"15001","Mountain View, HI",0
-"15001","Naalehu, HI",0
-"15003","Nanakuli, HI",4
-"15001","Nanawale Estates, HI",0
-"15009","Napili-Honokowai, HI",1
-"15003","Ocean Pointe, HI",4
-"15009","Olinda, HI",1
-"15009","Olowalu, HI",1
-"15007","Omao, HI",2
-"15001","Orchidlands Estates, HI",0
-"15001","Paauilo, HI",0
-"15001","Pahala, HI",0
-"15001","Pahoa, HI",0
-"15009","Paia, HI",1
-"15007","Pakala Village, HI",2
-"15001","Papaikou, HI",0
-"15001","Paukaa, HI",0
-"15003","Pearl City, HI",4
-"15001","Pepeekeo, HI",0
-"15007","Poipu, HI",2
-"15007","Princeville, HI",2
-"15001","Puako, HI",0
-"15007","Puhi, HI",2
-"15009","Pukalani, HI",1
-"15003","Punaluu, HI",4
-"15003","Pupukea, HI",4
-"15003","Royal Kunia, HI",4
-"15003","Schofield Barracks, HI",4
-"15009","Ualapu'e, HI",1
-"15003","Urban Honolulu, HI",4
-"15001","Volcano, HI",0
-"15003","Wahiawa, HI",4
-"15003","Waialua, HI",4
-"15003","Waianae, HI",4
-"15009","Waihee-Waiehu, HI",1
-"15003","Waikane, HI",4
-"15009","Waikapu, HI",1
-"15003","Waikele, HI",4
-"15001","Waikoloa Village, HI",0
-"15009","Wailea, HI",1
-"15007","Wailua, HI",2
-"15007","Wailua Homesteads, HI",2
-"15009","Wailuku, HI",1
-"15003","Waimalu, HI",4
-"15003","Waimanalo, HI",4
-"15003","Waimanalo Beach, HI",4
-"15001","Waimea, HI",0
-"15007","Waimea, HI",2
-"15001","Wainaku, HI",0
-"15007","Wainiha, HI",2
-"15001","Waiohinu, HI",0
-"15003","Waipahu, HI",4
-"15003","Waipio, HI",4
-"15003","Waipio Acres, HI",4
-"15003","West Loch Estate, HI",4
-"15003","Wheeler AFB, HI",4
-"15003","Whitmore Village, HI",4
 "15001","Hawaii, HI",0
 "15003","Honolulu, HI",4
+"15005","Kalawao, HI",0
 "15007","Kauai, HI",2
 "15009","Maui, HI",1
 "16001","Ada, ID",2
@@ -728,10 +612,10 @@
 "17031","Cook, IL",51
 "17033","Crawford, IL",0
 "17035","Cumberland, IL",1
+"17037","Dekalb, IL",0
 "17039","De Witt, IL",0
-"17037","DeKalb, IL",0
 "17041","Douglas, IL",0
-"17043","DuPage, IL",1
+"17043","Dupage, IL",1
 "17045","Edgar, IL",0
 "17047","Edwards, IL",0
 "17049","Effingham, IL",0
@@ -759,11 +643,14 @@
 "17093","Kendall, IL",0
 "17095","Knox, IL",0
 "17097","Lake, IL",3
-"17099","LaSalle, IL",0
+"17099","Lasalle, IL",0
 "17101","Lawrence, IL",0
 "17103","Lee, IL",0
 "17105","Livingston, IL",0
 "17107","Logan, IL",0
+"17109","Mcdonough, IL",0
+"17111","Mchenry, IL",2
+"17113","Mclean, IL",0
 "17115","Macon, IL",0
 "17117","Macoupin, IL",0
 "17119","Madison, IL",0
@@ -771,9 +658,6 @@
 "17123","Marshall, IL",0
 "17125","Mason, IL",0
 "17127","Massac, IL",0
-"17109","McDonough, IL",0
-"17111","McHenry, IL",2
-"17113","McLean, IL",0
 "17129","Menard, IL",0
 "17131","Mercer, IL",0
 "17133","Monroe, IL",0
@@ -791,12 +675,12 @@
 "17157","Randolph, IL",0
 "17159","Richland, IL",0
 "17161","Rock Island, IL",0
+"17163","St. Clair, IL",2
 "17165","Saline, IL",0
 "17167","Sangamon, IL",1
 "17169","Schuyler, IL",0
 "17171","Scott, IL",0
 "17173","Shelby, IL",0
-"17163","St. Clair, IL",2
 "17175","Stark, IL",0
 "17177","Stephenson, IL",0
 "17179","Tazewell, IL",0
@@ -828,7 +712,7 @@
 "18027","Daviess, IN",0
 "18029","Dearborn, IN",0
 "18031","Decatur, IN",0
-"18033","DeKalb, IN",0
+"18033","Dekalb, IN",0
 "18035","Delaware, IN",0
 "18037","Dubois, IN",0
 "18039","Elkhart, IN",0
@@ -855,11 +739,12 @@
 "18081","Johnson, IN",3
 "18083","Knox, IN",0
 "18085","Kosciusko, IN",0
-"18087","LaGrange, IN",0
+"18087","Lagrange, IN",0
 "18089","Lake, IN",0
-"18091","LaPorte, IN",1
+"18091","Laporte, IN",1
 "18093","Lawrence, IN",0
 "18095","Madison, IN",0
+"18097","Marion, IN",6
 "18099","Marshall, IN",0
 "18101","Martin, IN",0
 "18103","Miami, IN",0
@@ -881,10 +766,10 @@
 "18135","Randolph, IN",0
 "18137","Ripley, IN",0
 "18139","Rush, IN",0
+"18141","St. Joseph, IN",1
 "18143","Scott, IN",0
 "18145","Shelby, IN",0
 "18147","Spencer, IN",0
-"18141","St. Joseph, IN",1
 "18149","Starke, IN",0
 "18151","Steuben, IN",0
 "18153","Sullivan, IN",0
@@ -1058,9 +943,9 @@
 "20107","Linn, KS",0
 "20109","Logan, KS",0
 "20111","Lyon, KS",0
+"20113","Mcpherson, KS",0
 "20115","Marion, KS",0
 "20117","Marshall, KS",0
-"20113","McPherson, KS",0
 "20119","Meade, KS",0
 "20121","Miami, KS",0
 "20123","Mitchell, KS",0
@@ -1106,6 +991,7 @@
 "20203","Wichita, KS",0
 "20205","Wilson, KS",0
 "20207","Woodson, KS",0
+"20209","Wyandotte, KS",1
 "21001","Adair, KY",0
 "21003","Allen, KY",0
 "21005","Anderson, KY",0
@@ -1139,6 +1025,7 @@
 "21061","Edmonson, KY",0
 "21063","Elliott, KY",0
 "21065","Estill, KY",0
+"21067","Fayette, KY",5
 "21069","Fleming, KY",0
 "21071","Floyd, KY",0
 "21073","Franklin, KY",0
@@ -1160,6 +1047,7 @@
 "21105","Hickman, KY",0
 "21107","Hopkins, KY",0
 "21109","Jackson, KY",0
+"21111","Jefferson, KY",6
 "21113","Jessamine, KY",0
 "21115","Johnson, KY",0
 "21117","Kenton, KY",0
@@ -1176,15 +1064,15 @@
 "21139","Livingston, KY",0
 "21141","Logan, KY",0
 "21143","Lyon, KY",0
+"21145","Mccracken, KY",0
+"21147","Mccreary, KY",0
+"21149","Mclean, KY",0
 "21151","Madison, KY",0
 "21153","Magoffin, KY",0
 "21155","Marion, KY",0
 "21157","Marshall, KY",0
 "21159","Martin, KY",0
 "21161","Mason, KY",0
-"21145","McCracken, KY",0
-"21147","McCreary, KY",0
-"21149","McLean, KY",0
 "21163","Meade, KY",0
 "21165","Menifee, KY",0
 "21167","Mercer, KY",0
@@ -1224,69 +1112,70 @@
 "21235","Whitley, KY",0
 "21237","Wolfe, KY",0
 "21239","Woodford, KY",0
-"22001","Acadia, LA",0
-"22003","Allen, LA",0
-"22005","Ascension, LA",0
-"22007","Assumption, LA",0
-"22009","Avoyelles, LA",0
-"22011","Beauregard, LA",0
-"22013","Bienville, LA",0
-"22015","Bossier, LA",1
-"22017","Caddo, LA",2
-"22019","Calcasieu, LA",0
-"22021","Caldwell, LA",0
-"22023","Cameron, LA",0
-"22025","Catahoula, LA",0
-"22027","Claiborne, LA",0
-"22029","Concordia, LA",0
-"22031","De Soto, LA",0
-"22033","East Baton Rouge, LA",0
-"22035","East Carroll, LA",0
-"22037","East Feliciana, LA",0
-"22039","Evangeline, LA",0
-"22041","Franklin, LA",0
-"22043","Grant, LA",0
-"22045","Iberia, LA",0
-"22047","Iberville, LA",0
-"22049","Jackson, LA",0
-"22051","Jefferson, LA",14
-"22053","Jefferson Davis, LA",0
-"22059","La Salle, LA",0
-"22055","Lafayette, LA",0
-"22057","Lafourche, LA",1
-"22061","Lincoln, LA",0
-"22063","Livingston, LA",0
-"22065","Madison, LA",0
-"22067","Morehouse, LA",0
-"22069","Natchitoches, LA",0
-"22073","Ouachita, LA",0
-"22075","Plaquemines, LA",0
-"22077","Pointe Coupee, LA",0
-"22079","Rapides, LA",0
-"22081","Red River, LA",0
-"22083","Richland, LA",0
-"22085","Sabine, LA",0
-"22087","St. Bernard, LA",1
-"22089","St. Charles, LA",3
-"22091","St. Helena, LA",0
-"22093","St. James, LA",0
-"22095","St. John the Baptist, LA",1
-"22097","St. Landry, LA",0
-"22099","St. Martin, LA",0
-"22101","St. Mary, LA",0
-"22103","St. Tammany, LA",4
-"22105","Tangipahoa, LA",0
-"22107","Tensas, LA",0
-"22109","Terrebonne, LA",2
-"22111","Union, LA",0
-"22113","Vermilion, LA",0
-"22115","Vernon, LA",0
-"22117","Washington, LA",0
-"22119","Webster, LA",0
-"22121","West Baton Rouge, LA",0
-"22123","West Carroll, LA",0
-"22125","West Feliciana, LA",0
-"22127","Winn, LA",0
+"22001","Acadia Parish, LA",0
+"22003","Allen Parish, LA",0
+"22005","Ascension Parish, LA",0
+"22007","Assumption Parish, LA",0
+"22009","Avoyelles Parish, LA",0
+"22011","Beauregard Parish, LA",0
+"22013","Bienville Parish, LA",0
+"22015","Bossier Parish, LA",1
+"22017","Caddo Parish, LA",2
+"22019","Calcasieu Parish, LA",0
+"22021","Caldwell Parish, LA",0
+"22023","Cameron Parish, LA",0
+"22025","Catahoula Parish, LA",0
+"22027","Claiborne Parish, LA",0
+"22029","Concordia Parish, LA",0
+"22031","De Soto Parish, LA",0
+"22033","East Baton Rouge Parish, LA",0
+"22035","East Carroll Parish, LA",0
+"22037","East Feliciana Parish, LA",0
+"22039","Evangeline Parish, LA",0
+"22041","Franklin Parish, LA",0
+"22043","Grant Parish, LA",0
+"22045","Iberia Parish, LA",0
+"22047","Iberville Parish, LA",0
+"22049","Jackson Parish, LA",0
+"22051","Jefferson Parish, LA",14
+"22053","Jefferson Davis Parish, LA",0
+"22055","Lafayette Parish, LA",0
+"22057","Lafourche Parish, LA",1
+"22059","La Salle Parish, LA",0
+"22061","Lincoln Parish, LA",0
+"22063","Livingston Parish, LA",0
+"22065","Madison Parish, LA",0
+"22067","Morehouse Parish, LA",0
+"22069","Natchitoches Parish, LA",0
+"22071","Orleans Parish, LA",74
+"22073","Ouachita Parish, LA",0
+"22075","Plaquemines Parish, LA",0
+"22077","Pointe Coupee Parish, LA",0
+"22079","Rapides Parish, LA",0
+"22081","Red River Parish, LA",0
+"22083","Richland Parish, LA",0
+"22085","Sabine Parish, LA",0
+"22087","St. Bernard Parish, LA",1
+"22089","St. Charles Parish, LA",3
+"22091","St. Helena Parish, LA",0
+"22093","St. James Parish, LA",0
+"22095","St. John The Baptist Parish, LA",1
+"22097","St. Landry Parish, LA",0
+"22099","St. Martin Parish, LA",0
+"22101","St. Mary Parish, LA",0
+"22103","St. Tammany Parish, LA",4
+"22105","Tangipahoa Parish, LA",0
+"22107","Tensas Parish, LA",0
+"22109","Terrebonne Parish, LA",2
+"22111","Union Parish, LA",0
+"22113","Vermilion Parish, LA",0
+"22115","Vernon Parish, LA",0
+"22117","Washington Parish, LA",0
+"22119","Webster Parish, LA",0
+"22121","West Baton Rouge Parish, LA",0
+"22123","West Carroll Parish, LA",0
+"22125","West Feliciana Parish, LA",0
+"22127","Winn Parish, LA",0
 "23001","Androscoggin, ME",1
 "23003","Aroostook, ME",0
 "23005","Cumberland, ME",1
@@ -1318,19 +1207,29 @@
 "24027","Howard, MD",0
 "24029","Kent, MD",0
 "24031","Montgomery, MD",12
-"24033","Prince George's, MD",9
-"24035","Queen Anne's, MD",0
+"24033","Prince George'S, MD",9
+"24035","Queen Anne'S, MD",0
+"24037","St. Mary'S, MD",0
 "24039","Somerset, MD",0
-"24037","St. Mary's, MD",0
 "24041","Talbot, MD",0
 "24043","Washington, MD",0
 "24045","Wicomico, MD",0
 "24047","Worcester, MD",0
+"24510","Baltimore City, MD",1
 "25001","Barnstable, MA",1
+"25003","Berkshire, MA",9
 "25005","Bristol, MA",1
 "25007","Dukes, MA",0
+"25009","Essex, MA",6
+"25011","Franklin, MA",0
+"25013","Hampden, MA",1
+"25015","Hampshire, MA",0
+"25017","Middlesex, MA",75
+"25019","Nantucket, MA",0
 "25021","Norfolk, MA",31
 "25023","Plymouth, MA",1
+"25025","Suffolk, MA",31
+"25027","Worcester, MA",6
 "26001","Alcona, MI",0
 "26003","Alger, MI",0
 "26005","Allegan, MI",0
@@ -1404,11 +1303,11 @@
 "26141","Presque Isle, MI",0
 "26143","Roscommon, MI",0
 "26145","Saginaw, MI",0
+"26147","St. Clair, MI",2
+"26149","St. Joseph, MI",0
 "26151","Sanilac, MI",0
 "26153","Schoolcraft, MI",0
 "26155","Shiawassee, MI",0
-"26147","St. Clair, MI",2
-"26149","St. Joseph, MI",0
 "26157","Tuscola, MI",0
 "26159","Van Buren, MI",0
 "26161","Washtenaw, MI",7
@@ -1450,16 +1349,16 @@
 "27067","Kandiyohi, MN",0
 "27069","Kittson, MN",0
 "27071","Koochiching, MN",0
-"27073","Lac qui Parle, MN",0
+"27073","Lac Qui Parle, MN",0
 "27075","Lake, MN",0
-"27077","Lake of the Woods, MN",0
+"27077","Lake Of The Woods, MN",0
 "27079","Le Sueur, MN",0
 "27081","Lincoln, MN",0
 "27083","Lyon, MN",0
+"27085","Mcleod, MN",0
 "27087","Mahnomen, MN",0
 "27089","Marshall, MN",0
 "27091","Martin, MN",0
-"27085","McLeod, MN",0
 "27093","Meeker, MN",0
 "27095","Mille Lacs, MN",0
 "27097","Morrison, MN",0
@@ -1482,10 +1381,10 @@
 "27131","Rice, MN",0
 "27133","Rock, MN",0
 "27135","Roseau, MN",0
+"27137","St. Louis, MN",0
 "27139","Scott, MN",0
 "27141","Sherburne, MN",0
 "27143","Sibley, MN",0
-"27137","St. Louis, MN",0
 "27145","Stearns, MN",3
 "27147","Steele, MN",0
 "27149","Stevens, MN",0
@@ -1517,7 +1416,7 @@
 "28027","Coahoma, MS",0
 "28029","Copiah, MS",3
 "28031","Covington, MS",0
-"28033","DeSoto, MS",0
+"28033","Desoto, MS",0
 "28035","Forrest, MS",3
 "28037","Franklin, MS",0
 "28039","George, MS",0
@@ -1614,7 +1513,7 @@
 "29057","Dade, MO",0
 "29059","Dallas, MO",0
 "29061","Daviess, MO",0
-"29063","DeKalb, MO",0
+"29063","Dekalb, MO",0
 "29065","Dent, MO",0
 "29067","Douglas, MO",0
 "29069","Dunklin, MO",0
@@ -1642,11 +1541,11 @@
 "29113","Lincoln, MO",0
 "29115","Linn, MO",0
 "29117","Livingston, MO",0
+"29119","Mcdonald, MO",0
 "29121","Macon, MO",0
 "29123","Madison, MO",0
 "29125","Maries, MO",0
 "29127","Marion, MO",0
-"29119","McDonald, MO",0
 "29129","Mercer, MO",0
 "29131","Miller, MO",0
 "29133","Mississippi, MO",0
@@ -1674,17 +1573,17 @@
 "29177","Ray, MO",0
 "29179","Reynolds, MO",0
 "29181","Ripley, MO",0
+"29183","St. Charles, MO",0
+"29185","St. Clair, MO",0
+"29186","Ste. Genevieve, MO",0
+"29187","St. Francois, MO",0
+"29189","St. Louis, MO",2
 "29195","Saline, MO",0
 "29197","Schuyler, MO",0
 "29199","Scotland, MO",0
 "29201","Scott, MO",0
 "29203","Shannon, MO",0
 "29205","Shelby, MO",0
-"29183","St. Charles, MO",0
-"29185","St. Clair, MO",0
-"29187","St. Francois, MO",0
-"29189","St. Louis, MO",2
-"29186","Ste. Genevieve, MO",0
 "29207","Stoddard, MO",0
 "29209","Stone, MO",0
 "29211","Sullivan, MO",0
@@ -1697,6 +1596,7 @@
 "29225","Webster, MO",0
 "29227","Worth, MO",0
 "29229","Wright, MO",0
+"29510","St. Louis City, MO",0
 "30001","Beaverhead, MT",0
 "30003","Big Horn, MT",0
 "30005","Blaine, MT",0
@@ -1708,6 +1608,7 @@
 "30017","Custer, MT",0
 "30019","Daniels, MT",0
 "30021","Dawson, MT",0
+"30023","Deer Lodge, MT",0
 "30025","Fallon, MT",0
 "30027","Fergus, MT",0
 "30029","Flathead, MT",0
@@ -1720,11 +1621,11 @@
 "30043","Jefferson, MT",0
 "30045","Judith Basin, MT",0
 "30047","Lake, MT",1
-"30049","Lewis and Clark, MT",0
+"30049","Lewis And Clark, MT",0
 "30051","Liberty, MT",0
 "30053","Lincoln, MT",0
+"30055","Mccone, MT",0
 "30057","Madison, MT",0
-"30055","McCone, MT",0
 "30059","Meagher, MT",0
 "30061","Mineral, MT",0
 "30063","Missoula, MT",2
@@ -1742,6 +1643,7 @@
 "30087","Rosebud, MT",0
 "30089","Sanders, MT",0
 "30091","Sheridan, MT",0
+"30093","Silver Bow, MT",1
 "30095","Stillwater, MT",0
 "30097","Sweet Grass, MT",0
 "30099","Teton, MT",0
@@ -1809,8 +1711,8 @@
 "31111","Lincoln, NE",0
 "31113","Logan, NE",0
 "31115","Loup, NE",0
+"31117","Mcpherson, NE",0
 "31119","Madison, NE",0
-"31117","McPherson, NE",0
 "31121","Merrick, NE",0
 "31123","Morrill, NE",0
 "31125","Nance, NE",0
@@ -1860,6 +1762,7 @@
 "32029","Storey, NV",0
 "32031","Washoe, NV",9
 "32033","White Pine, NV",0
+"32510","Carson City, NV",1
 "33001","Belknap, NH",0
 "33003","Carroll, NH",0
 "33005","Cheshire, NH",0
@@ -1898,7 +1801,7 @@
 "35007","Colfax, NM",0
 "35009","Curry, NM",0
 "35011","De Baca, NM",0
-"35013","Do±a Ana, NM",0
+"35013","DoÌ±A Ana, NM",0
 "35015","Eddy, NM",0
 "35017","Grant, NM",0
 "35019","Guadalupe, NM",0
@@ -1908,15 +1811,15 @@
 "35027","Lincoln, NM",0
 "35028","Los Alamos, NM",0
 "35029","Luna, NM",0
-"35031","McKinley, NM",0
+"35031","Mckinley, NM",0
 "35033","Mora, NM",0
 "35035","Otero, NM",0
 "35037","Quay, NM",0
 "35039","Rio Arriba, NM",0
 "35041","Roosevelt, NM",0
+"35043","Sandoval, NM",2
 "35045","San Juan, NM",0
 "35047","San Miguel, NM",0
-"35043","Sandoval, NM",2
 "35049","Santa Fe, NM",3
 "35051","Sierra, NM",0
 "35053","Socorro, NM",2
@@ -1926,6 +1829,7 @@
 "35061","Valencia, NM",0
 "36001","Albany, NY",8
 "36003","Allegany, NY",0
+"36005","Bronx, NY",0
 "36007","Broome, NY",1
 "36009","Cattaraugus, NY",0
 "36011","Cayuga, NY",0
@@ -1946,12 +1850,14 @@
 "36041","Hamilton, NY",0
 "36043","Herkimer, NY",1
 "36045","Jefferson, NY",0
+"36047","Kings, NY",0
 "36049","Lewis, NY",0
 "36051","Livingston, NY",0
 "36053","Madison, NY",0
 "36055","Monroe, NY",2
 "36057","Montgomery, NY",1
 "36059","Nassau, NY",98
+"36061","New York, NY",329
 "36063","Niagara, NY",0
 "36065","Oneida, NY",0
 "36067","Onondaga, NY",0
@@ -1961,14 +1867,16 @@
 "36075","Oswego, NY",0
 "36077","Otsego, NY",0
 "36079","Putnam, NY",2
+"36081","Queens, NY",0
 "36083","Rensselaer, NY",0
+"36085","Richmond, NY",0
 "36087","Rockland, NY",13
+"36089","St. Lawrence, NY",0
 "36091","Saratoga, NY",3
 "36093","Schenectady, NY",2
 "36095","Schoharie, NY",0
 "36097","Schuyler, NY",0
 "36099","Seneca, NY",0
-"36089","St. Lawrence, NY",0
 "36101","Steuben, NY",0
 "36103","Suffolk, NY",47
 "36105","Sullivan, NY",0
@@ -1981,8 +1889,6 @@
 "36119","Westchester, NY",196
 "36121","Wyoming, NY",0
 "36123","Yates, NY",0
-"36011","Cayuga Nation, NY",0
-"36099","Cayuga Nation, NY",0
 "37001","Alamance, NC",0
 "37003","Alexander, NC",0
 "37005","Alleghany, NC",0
@@ -2038,10 +1944,10 @@
 "37105","Lee, NC",0
 "37107","Lenoir, NC",0
 "37109","Lincoln, NC",0
+"37111","Mcdowell, NC",0
 "37113","Macon, NC",0
 "37115","Madison, NC",0
 "37117","Martin, NC",0
-"37111","McDowell, NC",0
 "37119","Mecklenburg, NC",4
 "37121","Mitchell, NC",0
 "37123","Montgomery, NC",0
@@ -2105,12 +2011,12 @@
 "38039","Griggs, ND",0
 "38041","Hettinger, ND",0
 "38043","Kidder, ND",0
-"38045","LaMoure, ND",0
+"38045","Lamoure, ND",0
 "38047","Logan, ND",0
-"38049","McHenry, ND",0
-"38051","McIntosh, ND",0
-"38053","McKenzie, ND",0
-"38055","McLean, ND",0
+"38049","Mchenry, ND",0
+"38051","Mcintosh, ND",0
+"38053","Mckenzie, ND",0
+"38055","Mclean, ND",0
 "38057","Mercer, ND",0
 "38059","Morton, ND",0
 "38061","Mountrail, ND",0
@@ -2267,12 +2173,12 @@
 "40081","Lincoln, OK",0
 "40083","Logan, OK",0
 "40085","Love, OK",0
+"40087","Mcclain, OK",0
+"40089","Mccurtain, OK",0
+"40091","Mcintosh, OK",0
 "40093","Major, OK",0
 "40095","Marshall, OK",0
 "40097","Mayes, OK",0
-"40087","McClain, OK",0
-"40089","McCurtain, OK",0
-"40091","McIntosh, OK",0
 "40099","Murray, OK",0
 "40101","Muskogee, OK",0
 "40103","Noble, OK",0
@@ -2378,7 +2284,7 @@
 "42077","Lehigh, PA",1
 "42079","Luzerne, PA",1
 "42081","Lycoming, PA",0
-"42083","McKean, PA",0
+"42083","Mckean, PA",0
 "42085","Mercer, PA",0
 "42087","Mifflin, PA",0
 "42089","Monroe, PA",6
@@ -2387,6 +2293,7 @@
 "42095","Northampton, PA",1
 "42097","Northumberland, PA",0
 "42099","Perry, PA",0
+"42101","Philadelphia, PA",6
 "42103","Pike, PA",1
 "42105","Potter, PA",0
 "42107","Schuylkill, PA",0
@@ -2403,6 +2310,11 @@
 "42129","Westmoreland, PA",0
 "42131","Wyoming, PA",0
 "42133","York, PA",0
+"44001","Bristol, RI",0
+"44003","Kent, RI",0
+"44005","Newport, RI",0
+"44007","Providence, RI",4
+"44009","Washington, RI",2
 "45001","Abbeville, SC",0
 "45003","Aiken, SC",0
 "45005","Allendale, SC",0
@@ -2435,9 +2347,9 @@
 "45059","Laurens, SC",0
 "45061","Lee, SC",0
 "45063","Lexington, SC",1
+"45065","Mccormick, SC",0
 "45067","Marion, SC",0
 "45069","Marlboro, SC",0
-"45065","McCormick, SC",0
 "45071","Newberry, SC",0
 "45073","Oconee, SC",0
 "45075","Orangeburg, SC",0
@@ -2491,9 +2403,9 @@
 "46081","Lawrence, SD",0
 "46083","Lincoln, SD",0
 "46085","Lyman, SD",0
+"46087","Mccook, SD",1
+"46089","Mcpherson, SD",0
 "46091","Marshall, SD",0
-"46087","McCook, SD",1
-"46089","McPherson, SD",0
 "46093","Meade, SD",0
 "46095","Mellette, SD",0
 "46097","Miner, SD",0
@@ -2533,8 +2445,9 @@
 "47031","Coffee, TN",0
 "47033","Crockett, TN",0
 "47035","Cumberland, TN",0
+"47037","Davidson, TN",17
 "47039","Decatur, TN",0
-"47041","DeKalb, TN",0
+"47041","Dekalb, TN",0
 "47043","Dickson, TN",0
 "47045","Dyer, TN",0
 "47047","Fayette, TN",0
@@ -2567,16 +2480,17 @@
 "47101","Lewis, TN",0
 "47103","Lincoln, TN",0
 "47105","Loudon, TN",0
+"47107","Mcminn, TN",0
+"47109","Mcnairy, TN",0
 "47111","Macon, TN",0
 "47113","Madison, TN",0
 "47115","Marion, TN",0
 "47117","Marshall, TN",0
 "47119","Maury, TN",0
-"47107","McMinn, TN",0
-"47109","McNairy, TN",0
 "47121","Meigs, TN",0
 "47123","Monroe, TN",0
 "47125","Montgomery, TN",0
+"47127","Moore, TN",0
 "47129","Morgan, TN",0
 "47131","Obion, TN",0
 "47133","Overton, TN",0
@@ -2597,6 +2511,7 @@
 "47163","Sullivan, TN",1
 "47165","Sumner, TN",0
 "47167","Tipton, TN",0
+"47169","Trousdale, TN",0
 "47171","Unicoi, TN",0
 "47173","Union, TN",0
 "47175","Van Buren, TN",0
@@ -2668,7 +2583,7 @@
 "48117","Deaf Smith, TX",0
 "48119","Delta, TX",0
 "48121","Denton, TX",0
-"48123","DeWitt, TX",0
+"48123","Dewitt, TX",0
 "48125","Dickens, TX",0
 "48127","Dimmit, TX",0
 "48129","Donley, TX",0
@@ -2676,8 +2591,8 @@
 "48133","Eastland, TX",0
 "48135","Ector, TX",0
 "48137","Edwards, TX",0
-"48141","El Paso, TX",1
 "48139","Ellis, TX",0
+"48141","El Paso, TX",1
 "48143","Erath, TX",0
 "48145","Falls, TX",0
 "48147","Fannin, TX",0
@@ -2745,10 +2660,10 @@
 "48271","Kinney, TX",0
 "48273","Kleberg, TX",0
 "48275","Knox, TX",0
-"48283","La Salle, TX",0
 "48277","Lamar, TX",0
 "48279","Lamb, TX",0
 "48281","Lampasas, TX",0
+"48283","La Salle, TX",0
 "48285","Lavaca, TX",1
 "48287","Lee, TX",0
 "48289","Leon, TX",0
@@ -2760,15 +2675,15 @@
 "48301","Loving, TX",0
 "48303","Lubbock, TX",0
 "48305","Lynn, TX",0
+"48307","Mcculloch, TX",0
+"48309","Mclennan, TX",0
+"48311","Mcmullen, TX",0
 "48313","Madison, TX",0
 "48315","Marion, TX",0
 "48317","Martin, TX",0
 "48319","Mason, TX",0
 "48321","Matagorda, TX",1
 "48323","Maverick, TX",0
-"48307","McCulloch, TX",0
-"48309","McLennan, TX",0
-"48311","McMullen, TX",0
 "48325","Medina, TX",0
 "48327","Menard, TX",0
 "48329","Midland, TX",0
@@ -2949,9 +2864,9 @@
 "51087","Henrico, VA",0
 "51089","Henry, VA",0
 "51091","Highland, VA",0
-"51093","Isle of Wight, VA",0
+"51093","Isle Of Wight, VA",0
 "51095","James City, VA",8
-"51097","King and Queen, VA",0
+"51097","King And Queen, VA",0
 "51099","King George, VA",0
 "51101","King William, VA",0
 "51103","Lancaster, VA",0
@@ -2999,6 +2914,45 @@
 "51195","Wise, VA",0
 "51197","Wythe, VA",0
 "51199","York, VA",0
+"51510","Alexandria City, VA",2
+"51515","Bedford City, VA",0
+"51520","Bristol City, VA",0
+"51530","Buena Vista City, VA",0
+"51540","Charlottesville City, VA",0
+"51550","Chesapeake City, VA",0
+"51570","Colonial Heights City, VA",0
+"51580","Covington City, VA",0
+"51590","Danville City, VA",0
+"51595","Emporia City, VA",0
+"51600","Fairfax City, VA",0
+"51610","Falls Church City, VA",0
+"51620","Franklin City, VA",0
+"51630","Fredericksburg City, VA",1
+"51640","Galax City, VA",0
+"51650","Hampton City, VA",0
+"51660","Harrisonburg City, VA",1
+"51670","Hopewell City, VA",0
+"51678","Lexington City, VA",0
+"51680","Lynchburg City, VA",0
+"51683","Manassas City, VA",0
+"51685","Manassas Park City, VA",0
+"51690","Martinsville City, VA",0
+"51700","Newport News City, VA",0
+"51710","Norfolk City, VA",0
+"51720","Norton City, VA",0
+"51730","Petersburg City, VA",0
+"51735","Poquoson City, VA",0
+"51740","Portsmouth City, VA",0
+"51750","Radford City, VA",0
+"51760","Richmond City, VA",0
+"51770","Roanoke City, VA",0
+"51775","Salem City, VA",0
+"51790","Staunton City, VA",0
+"51800","Suffolk City, VA",0
+"51810","Virginia Beach City, VA",4
+"51820","Waynesboro City, VA",0
+"51830","Williamsburg City, VA",0
+"51840","Winchester City, VA",0
 "53001","Adams, WA",0
 "53003","Asotin, WA",0
 "53005","Benton, WA",0
@@ -3038,8 +2992,6 @@
 "53073","Whatcom, WA",3
 "53075","Whitman, WA",0
 "53077","Yakima, WA",4
-"53055","Samish, WA",0
-"53057","Samish, WA",4
 "54001","Barbour, WV",0
 "54003","Berkeley, WV",0
 "54005","Boone, WV",0
@@ -3063,10 +3015,10 @@
 "54041","Lewis, WV",0
 "54043","Lincoln, WV",0
 "54045","Logan, WV",0
+"54047","Mcdowell, WV",0
 "54049","Marion, WV",0
 "54051","Marshall, WV",0
 "54053","Mason, WV",0
-"54047","McDowell, WV",0
 "54055","Mercer, WV",0
 "54057","Mineral, WV",0
 "54059","Mingo, WV",0
@@ -3114,7 +3066,7 @@
 "55033","Dunn, WI",0
 "55035","Eau Claire, WI",0
 "55037","Florence, WI",0
-"55039","Fond du Lac, WI",11
+"55039","Fond Du Lac, WI",11
 "55041","Forest, WI",0
 "55043","Grant, WI",0
 "55045","Green, WI",0
@@ -3150,11 +3102,11 @@
 "55103","Richland, WI",0
 "55105","Rock, WI",0
 "55107","Rusk, WI",0
+"55109","St. Croix, WI",0
 "55111","Sauk, WI",0
 "55113","Sawyer, WI",0
 "55115","Shawano, WI",0
 "55117","Sheboygan, WI",3
-"55109","St. Croix, WI",0
 "55119","Taylor, WI",0
 "55121","Trempealeau, WI",0
 "55123","Vernon, WI",0
