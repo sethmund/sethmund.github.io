@@ -2,4 +2,4 @@
 
 Time Series data can be found here: https://github.com/sethmund/COVID_data
 
-[The interactive map](sethmund.github.io/covid_map)
+[The interactive map](https://sethmund.github.io/covid_map)
