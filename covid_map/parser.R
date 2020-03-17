@@ -13,6 +13,7 @@ states <- dat %>%
   distinct(stateFIPS,Cases) %>% 
   ungroup() %>% 
   transmute(id = str_pad(as.character(stateFIPS), 2, pad = "0"),
+            id = paste0(id,"000"),
             name = state.name[match(stateAbbr, state.abb)],
          cases = Cases)
  
@@ -33,12 +34,9 @@ counties <-  dat %>%
 
 #FIPS=====================================================================
 
-county_fips <- read_xls("fips_codes_website.xls") %>% select(code=1,stfips=2,cfips=3,name=6,type=7) %>% 
-  filter(type %in% c("Borough","County","Parish","CDP","TDSA")) %>% 
-  transmute(id = paste0(stfips,cfips),
-            name = paste0(name, ", ",code))
+fips <- read.csv("fips.csv")%>% mutate(id = str_pad(as.character(id), 5, pad = "0")) %>% filter(grepl(",",name))
 
-cases <- county_fips %>% 
+cases <- fips %>% 
       left_join(counties) %>% 
   mutate(cases = case_when(is.na(cases) ~ 0,
                           TRUE ~ as.numeric(cases))) %>% rbind(states)
@@ -46,4 +44,3 @@ cases <- county_fips %>%
 #==============================================================================
 
 write.csv(cases, "data.csv",row.names=FALSE)
-
