@@ -93,7 +93,12 @@ function initialize(error, results) {
 
         statePaths.transition(t)
             .attr('d', path)
-            .style('fill', function (d) { return color(d.properties.cases) })
+            .style('fill', function (d) {
+                if (d.properties.cases > 0)
+                    return color(d.properties.cases);
+                else
+                    return '#ffffff';
+             })
 
         svg.selectAll('.county')
             .data([])
@@ -126,7 +131,13 @@ function initialize(error, results) {
         var enterCountyPaths = countyPaths.enter().append('path')
             .attr('class', 'county')
             .attr('d', path)
-            .style('fill', function (d) { return color_state(d.properties.cases) })
+            .style('fill', function (d) { 
+                if (d.properties.cases > 0)
+                    return color_state(d.properties.cases);
+                else
+                    return '#ffffff';
+
+             })
             .style('opacity', 0)
             .on('click', function () { usZoom() })
 
