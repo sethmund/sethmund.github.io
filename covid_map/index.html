@@ -56,9 +56,9 @@ function initialize(error, results) {
         f.properties = data.find(function (d) { return d.id === f.id }) || {}
     })
 
-    var max = d3.max(states, function(d) { return +d.properties.cases; } );
-    var color = d3.scaleQuantize()
-        .domain([0, max])
+    var domains = [1, 10, 50, 100, 250, 500, 1000];
+    var color = d3.scaleThreshold()
+        .domain(domains)
         .range(d3.schemeOranges[9])
 
     var statePaths = svg.selectAll('.state')
@@ -118,10 +118,9 @@ function initialize(error, results) {
             return d.id > id && d.id < id + 1000
         })
 
-        var max_state = d3.max(stateCounties, function(d) { return +d.properties.cases; } );
-        var color_state = d3.scaleQuantize()
-            .domain([0, max_state]).nice()
-            .range(d3.schemeOranges[5]);
+        var color_state = d3.scaleThreshold()
+            .domain(domains.slice(0, index))
+            .range(d3.schemeReds[index + 1])
 
         var t = d3.transition().duration(800)
 
