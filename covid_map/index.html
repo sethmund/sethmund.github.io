@@ -90,10 +90,9 @@ function initialize(error, results) {
 
     var legend = d3.legendColor()
         .labelFormat(d3.format("d"))
-        .labels(d3.legendHelpers.thresholdLabels)
+        .labels(labelGenerate)
         .scale(color)
-        .title("COVID-2019 Cases")
-        .titleWidth(100)
+        .shapePadding(5);
 
     svg.select(".legend")
         .call(legend);
