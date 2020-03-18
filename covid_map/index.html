@@ -140,7 +140,7 @@ function initialize(error, results) {
 
         var color_state = d3.scaleThreshold()
             .domain(domains.slice(0, index))
-            .range(d3.schemeReds[index + 1])
+            .range(d3.schemeOranges[index + 1])
 
         var t = d3.transition().duration(800)
 
