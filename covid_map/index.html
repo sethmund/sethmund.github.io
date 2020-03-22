@@ -56,10 +56,10 @@ function initialize(error, results) {
         f.properties = data.find(function (d) { return d.id === f.id }) || {}
     })
 
-    var domains = [100, 500, 1000, 2500, 5000, 10000, 20000];
+    var domains = [10, 100, 500, 1000, 2500, 5000, 10000, 20000];
     var color = d3.scaleThreshold()
         .domain(domains)
-        .range(d3.schemeOranges[7])
+        .range(d3.schemeOranges[8])
 
     var statePaths = svg.selectAll('.state')
         .data(states)
