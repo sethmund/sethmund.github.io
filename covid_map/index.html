@@ -14,8 +14,8 @@ path:hover { stroke-width: 1; }
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
 <script>
 
-const width = 1080,
-    height = 720,
+const width = 960,
+    height = 600,
     padding = 20
 
 var projection = d3.geoAlbersUsa()
@@ -74,7 +74,7 @@ function initialize(error, results) {
 
     svg.append("g")
         .attr("class", "legend")
-        .attr("transform", "translate(850,350)");
+        .attr("transform", "translate(850,300)");
 
     function labelGenerate(x) {
         if (x.i === 0) {
