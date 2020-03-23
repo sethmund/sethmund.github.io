@@ -2,7 +2,7 @@ library(tidyverse)
 library(tools)
 library(readxl)
 
-dat <- read.csv("https://raw.githubusercontent.com/sethmund/COVID_data/master/confirmed.csv")
+dat <- read.csv("C:/Users/Seth/Desktop/COVID_data/confirmed.csv")
 
 states <- dat %>% 
   pivot_longer(5:ncol(.), names_to = "Date", values_to = "Cases") %>% 
